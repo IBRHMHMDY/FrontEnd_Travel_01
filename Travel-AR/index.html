@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="This is a travel html template made by Selfstudy">
+      <meta name="description" content="This is a travel html template made by Selfstudy">
+      <!-- Icon Site Logo -->
+      <link rel="shortcut icon" href="./favicon.svg" type="image/svg">
+      <!-- Title Site -->
+      <title>Travel</title>
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <!-- Custom Styles -->
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <!-- Preload Images -->
+      <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+      <link rel="preload" as="image" href="./assets/images/preloader.svg">
+   </head>
+   <body>
+      <!-- Preloader -->
+      <div class="preloader" data-preloader>
+         <div class="preloader-inner">
+            <img src="assets/images/preloader.svg" alt="logo" width="50" height="50" class="img">
+         </div>
+      </div>
+      <!-- #Preloader -->
+      <!-- Header -->
+      <div class="header" data-header>
+         <div class="container">
+            <a href="#" class="logo">
+               <img src="assets/images/logo.svg" width="187" height="38" alt="logo">
+            </a>
+
+            <nav class="navbar" data-navbar>
+               <div class="navbar-top">
+                  <a href="#" class="logo">
+                     <img src="assets/images/logo.svg" width="187" height="38" alt="logo">
+                  </a>
+                  <button class="btn-nav-toggle" aria-label="close menu" data-nav-toggler>
+                     <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                  </button>
+               </div>
+
+               <ul class="navbar-list">
+                  <li class="navbar-item"><a href="#hero" class="navbar-link active">الرئيسية</a></li>
+                  <li class="navbar-item"><a href="#gallery" class="navbar-link">المعرض</a></li>
+                  <li class="navbar-item"><a href="#services" class="navbar-link">الخدمات</a></li>
+                  <li class="navbar-item"><a href="#destination" class="navbar-link">الاسعار</a></li>
+                  <li class="navbar-item"><a href="#cta" class="navbar-link">إتصل بنا</a></li>
+               </ul>
+
+               <div class="header-action">
+                  <a href="#" class="btn-login">تسجيل دخول</a>
+                  <a href="#" class="btn btn-primary">حساب جديد</a>
+               </div>
+            </nav>
+
+            <button class="btn-nav-toggle" aria-label="open menu" data-nav-toggler>
+               <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <div class="overlay" data-overlay data-nav-toggler></div>
+         </div>
+      </div>
+      <!-- #Header -->
+      <!-- Main Page -->
+      <main>
+         <article>
+            <!-- Hero -->
+            <section class="section hero has-bg-image" aria-label="hero" id="hero" style="background-color: ulr('./assets/images/hero-bg.jpg')">
+               <div class="container">
+                  <div class="hero-content">
+                     <p class="hero-subtitle">
+                        إستكشف العالم<img src="./assets/images/title-icon.svg" width="20" height="20" alt="world icon" class="img">
+                     </p>
+
+                     <h1 class="h1 title hero-title">إنه عالم كبير بالخارج ، انطلق للاستكشاف</h1>
+
+                     <p class="hero-text">نحن دائما نجعل عملائنا سعداء من خلال تقديم أكبر عدد ممكن من الخيارات</p>
+
+                     <div class="wrapper">
+                        <a class="btn btn-secondary">
+                           <span class="span">خطط لرحلتك</span>
+                           <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                        <button class="hero-btn">
+                           <div class="btn-img">
+                              <img src="./assets/images/hero-button-img.jpg" alt="hero image" width="100" height="100" class="img-cover">
+                              <ion-icon name="play" aria-hidden="true"></ion-icon>
+                           </div>
+                           <p class="text">شاهد قصصنا</p>
+                        </button>
+                     </div>
+
+                  </div>
+
+                  <figure class="hero-banner">
+                     <img src="./assets/images/hero-banner.png" width="631" height="735" alt="hero banner" class="w-100">
+                  </figure>
+               </div>
+            </section>
+            <!-- #Hero -->
+            <!-- Services -->
+            <section class="section service" aria-label="service" id="services">
+               <div class="container">
+                  <div class="title-wrapper">
+                     <p class="section-subtitle">ما هى خدماتنا</p>
+                     <h2 class="h2 title section-title">أهم القيم بالنسبة لك</h2>
+                     <p class="section-text">جرب مجموعة متنوعة من المزايا عند استخدام خدماتنا.</p>
+                  </div>
+                  <div class="service-card">
+                     <div class="card-icon">
+                        <img src="./assets/images/service-icon-1.svg" width="60" height="60" loading="lazy" alt="icon">
+                     </div>
+                     <h3 class="h3 title card-title">الكثير من الخيارات</h3>
+                     <p class="card-text">إجمالي 460+ وجهة نعمل معها.</p>
+                  </div>
+                  <div class="service-card">
+                     <div class="card-icon">
+                        <img src="./assets/images/service-icon-2.svg" width="60" height="60" loading="lazy" alt="icon">
+                     </div>
+                     <h3 class="h3 title card-title">أفضل مرشد سياحي</h3>
+                     <p class="card-text">مرشدنا السياحي مع أكثر من 15 عامًا من الخبرة.</p>
+                  </div>
+                  <div class="service-card">
+                     <div class="card-icon">
+                        <img src="./assets/images/service-icon-3.svg" width="60" height="60" loading="lazy" alt="icon">
+                     </div>
+                     <h3 class="h3 title card-title">سهولة الحجز</h3>
+                     <p class="card-text">مع عملية شراء التذاكر سهلة وسريعة.</p>
+                  </div>
+               </div>
+            </section>
+            <!-- #Services -->
+            <!-- Destination -->
+            <section class="section destination" aria-label="destination" id="destination">
+               <div class="container">
+                  <p class="section-subtitle">أفضل وجهة</p>
+                  <h2 class="h2 title section-title">اكتشف أفضل وجهة</h2>
+                  <ul class="dest-list">
+                     <li>
+                        <div class="dest-card">
+                           <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                              <img src="./assets/images/destination-1.jpg" alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                              <span class="card-price">$340</span>
+                           </div>
+                           <div class="card-content">
+                              <h3 class="h3 title">
+                                 <a href="#" class="card-title">استمتع بجمال del Pincio</a>
+                              </h3>
+
+                              <address class="card-text">روما، إيطاليا</address>
+
+                              <div class="card-rating">
+                                 <span class="span">
+                                    <ion-icon name="star" aria-hidden="true"></ion-icon> 4.7
+                                    <p class="rating-text">(11.1k Review)</p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="dest-card">
+                           <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                              <img src="./assets/images/destination-2.jpg" alt="Enjoy the Beauty of the Pakistan Monument" class="img-cover">
+                              <span class="card-price">$340</span>
+                           </div>
+                           <div class="card-content">
+                              <h3 class="h3 title">
+                                 <a href="#" class="card-title">استمتع بجمال النصب التذكاري الباكستاني</a>
+                              </h3>
+
+                              <address class="card-text">إسلام اباد، باكستان</address>
+
+                              <div class="card-rating">
+                                 <span class="span">
+                                    <ion-icon name="star" aria-hidden="true"></ion-icon> 4.6
+                                    <p class="rating-text">(16.9k Review)</p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="dest-card">
+                           <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                              <img src="./assets/images/destination-3.jpg" alt="Enjoy the Beauty of the Burj Khalifa" class="img-cover">
+                              <span class="card-price">$340</span>
+                           </div>
+                           <div class="card-content">
+                              <h3 class="h3 title">
+                                 <a href="#" class="card-title">استمتع بجمال برج خليفة</a>
+                              </h3>
+
+                              <address class="card-text">ناطحة سحاب في دبي</address>
+
+                              <div class="card-rating">
+                                 <span class="span">
+                                    <ion-icon name="star" aria-hidden="true"></ion-icon> 4.7
+                                    <p class="rating-text">(120k Review)</p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="dest-card">
+                           <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                              <img src="./assets/images/destination-4.jpg" alt="Enjoy the Beauty of the Milaidhoo" class="img-cover">
+                              <span class="card-price">$340</span>
+                           </div>
+                           <div class="card-content">
+                              <h3 class="h3 title">
+                                 <a href="#" class="card-title">استمتع بجمال Milaidhoo</a>
+                              </h3>
+
+                              <address class="card-text">جزيرة في جزر المالديف</address>
+
+                              <div class="card-rating">
+                                 <span class="span">
+                                    <ion-icon name="star" aria-hidden="true"></ion-icon> 4.7
+                                    <p class="rating-text">(70 Review)</p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="dest-card">
+                           <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                              <img src="./assets/images/destination-5.jpg" alt="Enjoy the Beauty of the Ko Tao" class="img-cover">
+                              <span class="card-price">$340</span>
+                           </div>
+                           <div class="card-content">
+                              <h3 class="h3 title">
+                                 <a href="#" class="card-title">استمتع بجمال كو تاو</a>
+                              </h3>
+
+                              <address class="card-text">جزيرة في خليج تايلاند</address>
+
+                              <div class="card-rating">
+                                 <span class="span">
+                                    <ion-icon name="star" aria-hidden="true"></ion-icon> 4.5
+                                    <p class="rating-text">(985 Review)</p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="dest-card">
+                           <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                              <img src="./assets/images/destination-6.jpg" alt="Enjoy the Beauty of the Grand Mecidiye Mosque" class="img-cover">
+                              <span class="card-price">$340</span>
+                           </div>
+                           <div class="card-content">
+                              <h3 class="h3 title">
+                                 <a href="#" class="card-title">استمتع بجمال مسجد المسيدية الكبير</a>
+                              </h3>
+
+                              <address class="card-text">مسجد في اسطنبول ، تركيا</address>
+
+                              <div class="card-rating">
+                                 <span class="span">
+                                    <ion-icon name="star" aria-hidden="true"></ion-icon> 4.8
+                                    <p class="rating-text">(29.6k Review)</p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+
+                  <a href="#" class="btn btn-primary">مشاهدة الكل الوجهة</a>
+               </div>
+            </section>
+            <!-- #Destination -->
+            <!-- Experience -->
+            <section class="section exp" aria-label="experience" id="experience">
+               <div class="container">
+                  <div class="exp-content">
+                     <p class="section-subtitle">تجربتنا</p>
+                     <h2 class="h2 title section-title">مع خبرتنا سوف نخدمك</h2>
+                     <p class="section-text">
+                        منذ افتتاحنا لأول مرة ، نعطي الأولوية دائمًا لراحة مستخدمينا من خلال توفير أسعار منخفضة وعملية سهلة.
+                     </p>
+
+                     <ul class="exp-list">
+                        <li class="exp-item">
+                           <h3 class="h3 title item-title">20</h3>
+                           <p class="item-text">سنوات <br>خبرة</p>
+                        </li>
+                        <li class="exp-item">
+                           <h3 class="h3 title item-title">50K+</h3>
+                           <p class="item-text">سعيد <br>عميل</p>
+                        </li>
+                        <li class="exp-item">
+                           <h3 class="h3 title item-title">460+</h3>
+                           <p class="item-text">مكان <br>مشارك</p>
+                        </li>
+                     </ul>
+                  </div>
+
+                  <figure class="exp-banner">
+                     <img src="./assets/images/experience-banner.png" alt="experience banner" width="550" height="660" loading="lazy" class="w-100">
+
+                     <img src="./assets/images/exp-shape.svg" alt="24/7 Guide Support" width="75" height="109" loading="lazy" class="exp-shape">
+                  </figure>
+               </div>
+            </section>
+            <!-- #Experience -->
+            <!-- Gallery -->
+            <section class="section gallery" aria-label="gallery" id="gallery">
+               <div class="container">
+                  <p class="section-subtitle">صور المعرض</p>
+                  <h2 class="h2 title section-title">صور من المشاركين فى رحلاتنا</h2>
+                  <ul class="gallery-list">
+                     <li class="gallery-item">
+                        <figure class="item-banner img-holder" style="--width: 700; --height:925;">
+                           <img src="./assets/images/gallery-1.jpg" alt="gallery" width="700" height="925" loading="lazy" class="img-cover">
+                        </figure>
+                     </li>
+                     <li class="gallery-item">
+                        <figure class="item-banner img-holder" style="--width: 700; --height:925;">
+                           <img src="./assets/images/gallery-2.jpg" alt="gallery" width="700" height="925" loading="lazy" class="img-cover">
+                        </figure>
+                     </li>
+                     <li class="gallery-item">
+                        <figure class="item-banner img-holder" style="--width: 700; --height:840;">
+                           <img src="./assets/images/gallery-3.jpg" alt="gallery" width="700" height="840" loading="lazy" class="img-cover">
+                        </figure>
+                     </li>
+                     <li class="gallery-item">
+                        <figure class="item-banner img-holder" style="--width: 700; --height:378;">
+                           <img src="./assets/images/gallery-4.jpg" alt="gallery" width="700" height="378" loading="lazy" class="img-cover">
+                        </figure>
+                     </li>
+                     <li class="gallery-item">
+                        <figure class="item-banner img-holder" style="--width: 700; --height:378;">
+                           <img src="./assets/images/gallery-5.jpg" alt="gallery" width="700" height="378" loading="lazy" class="img-cover">
+                        </figure>
+                     </li>
+                     <li class="gallery-item">
+                        <figure class="item-banner img-holder" style="--width: 700; --height:378;">
+                           <img src="./assets/images/gallery-6.jpg" alt="gallery" width="700" height="378" loading="lazy" class="img-cover">
+                        </figure>
+                     </li>
+                  </ul>
+               </div>
+            </section>
+            <!-- #Gallery -->
+            <!-- CTA -->
+            <section class="section cta" aria-label="call to action" id="cta">
+               <div class="container">
+                  <div class="cta-card has-bg-image" style="background-image: url('./assets/images/cta-bg.jpg')">
+                     <h2 class="h2 title section-title">
+                        جهز نفسك ودعنا نستكشف جمال العالم
+                        <img src="./assets/images/title-icon.svg" alt="icon" width="36" height="36" loading="lazy" class="img">
+                     </h2>
+                     <p class="section-text">لدينا العديد من العروض الخاصة خصيصا لك.</p>
+                     <a href="#" class="btn btn-primary">البدء الآن</a>
+                  </div>
+               </div>
+            </section>
+            <!-- #CTA -->
+         </article>
+      </main>
+      <!-- #Main Page -->
+      <!-- Footer -->
+      <footer class="footer">
+         <div class="container">
+            <div class="footer-top">
+               <div class="footer-brand">
+                  <a href="#" class="logo">
+                     <img src="./assets/images/logo.svg" alt="logo" width="187" height="38" >
+                  </a>
+                  <p class="footer-text">
+                     نحن دائمًا نجعل عملائنا سعداء من خلال توفير أكبر عدد ممكن من الخيارات
+                  </p>
+
+                  <ul class="social-list">
+                     <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                     <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                     <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                  </ul>
+               </div>
+               <ul class="footer-list">
+                  <li><p class="footer-list-title">حــول</p></li>
+                  <li><a href="#" class="footer-link">عننا</a></li>
+                  <li><a href="#" class="footer-link">المميزات</a></li>
+                  <li><a href="#" class="footer-link">الاخيار</a></li>
+                  <li><a href="#" class="footer-link">القائمة</a></li>
+               </ul>
+               <ul class="footer-list">
+                  <li><p class="footer-list-title">الشركة</p></li>
+                  <li><a href="#" class="footer-link">لماذا نحن</a></li>
+                  <li><a href="#" class="footer-link">شركائنا</a></li>
+                  <li><a href="#" class="footer-link">أسئلة شائعة</a></li>
+                  <li><a href="#" class="footer-link">المدونة</a></li>
+               </ul>
+               <ul class="footer-list">
+                  <li><p class="footer-list-title">الدعم</p></li>
+                  <li><a href="#" class="footer-link">الحساب</a></li>
+                  <li><a href="#" class="footer-link">مركز الدعم</a></li>
+                  <li><a href="#" class="footer-link">المراجعات</a></li>
+                  <li><a href="#" class="footer-link">إتصل بنا</a></li>
+                  <li><a href="#" class="footer-link">إمكانية الوصول</a></li>
+               </ul>
+               <div class="footer-list">
+                  <p class="footer-list-title">ابقى على تواصل</p>
+                  <p class="footer-text">سؤال أو تعليق؟ يسعدنا أن نسمع منك.</p>
+                  <form action="" class="input-wrapper">
+                     <input type="email" name="email_address" placeholder="Email Address" class="input-field" autocomplete="off" required>
+
+                     <button type="submit" class="btn-input" aria-label="send a message">
+                        <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+                     </button>
+                  </form>
+               </div>
+            </div>
+            <div class="footer-bottom">
+               <p class="copyright">
+                  <span>Copyright 2023. Made by </span><a href="www.ibrahimhamdy.net" class="copyright-link"> Selfstudy</a>
+               </p>
+               <ul class="footer-bottom-list">
+                  <li><a href="#" class="footer-bottom-link">أحكام وشروط</a></li>
+                  <li><a href="#" class="footer-bottom-link">الخصوصية والسياسة</a></li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+      <!-- #Footer -->
+      <!-- Scripts ION_ICONS -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <!-- Custom Scripts -->
+      <script src="assets/js/script.js"></script>
+   </body>
+</html>
